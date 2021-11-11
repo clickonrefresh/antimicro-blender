@@ -6,6 +6,6 @@ As of writing, Antimcro is deprecated and I just use antimicro installed via lin
 
 Linux users please use [AntimcroX](https://github.com/AntiMicroX/antimicroX)
 
-Windows users, the build is not working, for more [info](https://github.com/AntiMicro/antimicro#windows-users)
+Windows users, the build for AntimicroX is not working, for more [info](https://github.com/AntiMicro/antimicro#windows-users) but you can still use the old version
 
 
