@@ -1,7 +1,11 @@
-# antimicro-blender
-Config files for AntiMicro, to use your gamepad controller in Blender for viewport controls and more.
+# Antimicro Presets
+A compilation of presets for [Antimicro](https://github.com/AntiMicro/antimicro) to control your Linux Desktop, Blender Viewport Controls and more coming soon
 
-# Use
-1. Load the Blender Gamepad Controls file into Antimcro
-2. Press start on your controller to activate the gamepad camera controls
-3. Press back to return to regular controls
+## Important
+As of writing, Antimcro is deprecated and I just use antimicro installed via linux package manager which seems to be the old version which works on all platforms but please note this project will be updated to use AntimicroX in the near future.
+
+Linux users please use [AntimcroX](https://github.com/AntiMicroX/antimicroX)
+
+Windows users, the build is not working, for more [info](https://github.com/AntiMicro/antimicro#windows-users)
+
+
