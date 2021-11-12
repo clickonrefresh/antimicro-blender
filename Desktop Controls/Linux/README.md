@@ -1,6 +1,6 @@
 # Linux Desktop Controls
 
-## Preset 1
+## Preset 1 - Desktop Control Basic
 
 ### Analogs
 
