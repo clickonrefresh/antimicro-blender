@@ -4,14 +4,26 @@
     <sdlname>PS1000 Dual AnaloguePad</sdlname>
     <!--The GUID for a joystick is included for informational purposes only.-->
     <guid>03000000a30600002106000011010000</guid>
+    <profilename>Blendered Desktop</profilename>
     <names>
         <buttonname index="7">triggerBlenderContro</buttonname>
     </names>
     <sets>
         <set index="1">
             <stick index="1">
-                <diagonalRange>65</diagonalRange>
+                <deadZone>7098</deadZone>
+                <diagonalRange>81</diagonalRange>
+                <stickbutton index="8">
+                    <mousespeedx>40</mousespeedx>
+                    <mousespeedy>40</mousespeedy>
+                </stickbutton>
                 <stickbutton index="1">
+                    <mousespeedx>40</mousespeedx>
+                    <mousespeedy>40</mousespeedy>
+                    <accelerationmultiplier>5</accelerationmultiplier>
+                    <startaccelmultiplier>71</startaccelmultiplier>
+                    <minaccelthreshold>70</minaccelthreshold>
+                    <extraaccelerationcurve>easeoutsine</extraaccelerationcurve>
                     <slots>
                         <slot>
                             <code>1</code>
@@ -19,23 +31,13 @@
                         </slot>
                     </slots>
                 </stickbutton>
-                <stickbutton index="7">
-                    <slots>
-                        <slot>
-                            <code>3</code>
-                            <mode>mousemovement</mode>
-                        </slot>
-                    </slots>
-                </stickbutton>
-                <stickbutton index="5">
-                    <slots>
-                        <slot>
-                            <code>2</code>
-                            <mode>mousemovement</mode>
-                        </slot>
-                    </slots>
-                </stickbutton>
                 <stickbutton index="3">
+                    <mousespeedx>40</mousespeedx>
+                    <mousespeedy>40</mousespeedy>
+                    <accelerationmultiplier>5</accelerationmultiplier>
+                    <startaccelmultiplier>71</startaccelmultiplier>
+                    <minaccelthreshold>70</minaccelthreshold>
+                    <extraaccelerationcurve>easeoutsine</extraaccelerationcurve>
                     <slots>
                         <slot>
                             <code>4</code>
@@ -43,16 +45,48 @@
                         </slot>
                     </slots>
                 </stickbutton>
-            </stick>
-            <dpad index="1">
-                <dpadbutton index="1">
+                <stickbutton index="2">
+                    <mousespeedx>40</mousespeedx>
+                    <mousespeedy>40</mousespeedy>
+                </stickbutton>
+                <stickbutton index="5">
+                    <mousespeedx>40</mousespeedx>
+                    <mousespeedy>40</mousespeedy>
+                    <accelerationmultiplier>5</accelerationmultiplier>
+                    <startaccelmultiplier>71</startaccelmultiplier>
+                    <minaccelthreshold>70</minaccelthreshold>
+                    <extraaccelerationcurve>easeoutsine</extraaccelerationcurve>
                     <slots>
                         <slot>
-                            <code>0x1000013</code>
-                            <mode>keyboard</mode>
+                            <code>2</code>
+                            <mode>mousemovement</mode>
                         </slot>
                     </slots>
-                </dpadbutton>
+                </stickbutton>
+                <stickbutton index="4">
+                    <mousespeedx>40</mousespeedx>
+                    <mousespeedy>40</mousespeedy>
+                </stickbutton>
+                <stickbutton index="7">
+                    <mousespeedx>40</mousespeedx>
+                    <mousespeedy>40</mousespeedy>
+                    <accelerationmultiplier>5</accelerationmultiplier>
+                    <startaccelmultiplier>71</startaccelmultiplier>
+                    <minaccelthreshold>70</minaccelthreshold>
+                    <extraaccelerationcurve>easeoutsine</extraaccelerationcurve>
+                    <slots>
+                        <slot>
+                            <code>3</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="6">
+                    <mousespeedx>40</mousespeedx>
+                    <mousespeedy>40</mousespeedy>
+                </stickbutton>
+            </stick>
+            <dpad index="1">
                 <dpadbutton index="8">
                     <slots>
                         <slot>
@@ -61,10 +95,10 @@
                         </slot>
                     </slots>
                 </dpadbutton>
-                <dpadbutton index="4">
+                <dpadbutton index="1">
                     <slots>
                         <slot>
-                            <code>0x1000015</code>
+                            <code>0x1000013</code>
                             <mode>keyboard</mode>
                         </slot>
                     </slots>
@@ -73,6 +107,14 @@
                     <slots>
                         <slot>
                             <code>0x1000014</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+                <dpadbutton index="4">
+                    <slots>
+                        <slot>
+                            <code>0x1000015</code>
                             <mode>keyboard</mode>
                         </slot>
                     </slots>
@@ -143,6 +185,10 @@
                     </slot>
                 </slots>
             </button>
+            <button index="5">
+                <setselect>8</setselect>
+                <setselectcondition>one-way</setselectcondition>
+            </button>
             <button index="6">
                 <toggle>true</toggle>
                 <slots>
@@ -155,7 +201,7 @@
             <button index="7">
                 <toggle>true</toggle>
                 <setselect>2</setselect>
-                <setselectcondition>two-way</setselectcondition>
+                <setselectcondition>one-way</setselectcondition>
                 <actionname>Activate Blender Presets</actionname>
             </button>
             <button index="10">
@@ -186,10 +232,10 @@
                         </slot>
                     </slots>
                 </stickbutton>
-                <stickbutton index="7">
+                <stickbutton index="3">
                     <slots>
                         <slot>
-                            <code>3</code>
+                            <code>4</code>
                             <mode>mousemovement</mode>
                         </slot>
                     </slots>
@@ -202,24 +248,16 @@
                         </slot>
                     </slots>
                 </stickbutton>
-                <stickbutton index="3">
+                <stickbutton index="7">
                     <slots>
                         <slot>
-                            <code>4</code>
+                            <code>3</code>
                             <mode>mousemovement</mode>
                         </slot>
                     </slots>
                 </stickbutton>
             </stick>
             <dpad index="1">
-                <dpadbutton index="1">
-                    <slots>
-                        <slot>
-                            <code>0x1000013</code>
-                            <mode>keyboard</mode>
-                        </slot>
-                    </slots>
-                </dpadbutton>
                 <dpadbutton index="8">
                     <slots>
                         <slot>
@@ -228,10 +266,10 @@
                         </slot>
                     </slots>
                 </dpadbutton>
-                <dpadbutton index="4">
+                <dpadbutton index="1">
                     <slots>
                         <slot>
-                            <code>0x1000015</code>
+                            <code>0x1000013</code>
                             <mode>keyboard</mode>
                         </slot>
                     </slots>
@@ -240,6 +278,14 @@
                     <slots>
                         <slot>
                             <code>0x1000014</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+                <dpadbutton index="4">
+                    <slots>
+                        <slot>
+                            <code>0x1000015</code>
                             <mode>keyboard</mode>
                         </slot>
                     </slots>
@@ -310,19 +356,27 @@
                     </slot>
                 </slots>
             </button>
+            <button index="5">
+                <setselect>1</setselect>
+                <setselectcondition>one-way</setselectcondition>
+            </button>
             <button index="6">
                 <toggle>true</toggle>
                 <slots>
                     <slot>
-                        <code>0x1000022</code>
+                        <code>0x1000020</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                    <slot>
+                        <code>0x60</code>
                         <mode>keyboard</mode>
                     </slot>
                 </slots>
             </button>
             <button index="7">
                 <toggle>true</toggle>
-                <setselect>1</setselect>
-                <setselectcondition>two-way</setselectcondition>
+                <setselect>3</setselect>
+                <setselectcondition>one-way</setselectcondition>
                 <actionname>Activate Blender Presets</actionname>
             </button>
             <button index="10">
