@@ -15,6 +15,7 @@
     </vdpadButtonAssociations>
     <names>
         <buttonname index="7">triggerBlenderContro</buttonname>
+        <buttonname index="5">back to set 2</buttonname>
         <controlstickname index="1">Stick 1</controlstickname>
         <controlstickname index="2">Stick 2</controlstickname>
     </names>
@@ -38,22 +39,224 @@
             </button>
         </set>
         <set index="3">
+            <stick index="1">
+                <calibrated>false</calibrated>
+                <summary></summary>
+                <diagonalRange>65</diagonalRange>
+                <stickbutton index="7">
+                    <slots>
+                        <slot>
+                            <code>3</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="5">
+                    <slots>
+                        <slot>
+                            <code>2</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="3">
+                    <slots>
+                        <slot>
+                            <code>4</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="1">
+                    <slots>
+                        <slot>
+                            <code>1</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+            </stick>
+            <stick index="2">
+                <calibrated>false</calibrated>
+                <summary></summary>
+                <stickbutton index="7">
+                    <slots>
+                        <slot>
+                            <code>0x41</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="5">
+                    <slots>
+                        <slot>
+                            <code>0x53</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="3">
+                    <slots>
+                        <slot>
+                            <code>0x44</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="1">
+                    <slots>
+                        <slot>
+                            <code>0x57</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+            </stick>
+            <dpad index="1">
+                <dpadbutton index="8">
+                    <slots>
+                        <slot>
+                            <code>0x11000016</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+                <dpadbutton index="4">
+                    <slots>
+                        <slot>
+                            <code>0x11000010</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+                <dpadbutton index="2">
+                    <slots>
+                        <slot>
+                            <code>0x11000017</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+                <dpadbutton index="1">
+                    <slots>
+                        <slot>
+                            <code>0x11000011</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+            </dpad>
             <trigger index="5">
+                <deadZone>2000</deadZone>
                 <center_value>0</center_value>
                 <min_value>-32767</min_value>
                 <max_value>32767</max_value>
                 <throttle>positivehalf</throttle>
+                <triggerbutton index="2">
+                    <slots>
+                        <slot>
+                            <code>4</code>
+                            <mode>mousebutton</mode>
+                        </slot>
+                    </slots>
+                </triggerbutton>
             </trigger>
             <trigger index="6">
+                <deadZone>2000</deadZone>
                 <center_value>0</center_value>
                 <min_value>-32767</min_value>
                 <max_value>32767</max_value>
                 <throttle>positivehalf</throttle>
+                <triggerbutton index="1">
+                    <mousemode>spring</mousemode>
+                    <mousespringwidth>1</mousespringwidth>
+                    <mousespringheight>1</mousespringheight>
+                </triggerbutton>
+                <triggerbutton index="2">
+                    <mousemode>spring</mousemode>
+                    <mousespringwidth>1</mousespringwidth>
+                    <mousespringheight>1</mousespringheight>
+                    <slots>
+                        <slot>
+                            <code>5</code>
+                            <mode>mousebutton</mode>
+                        </slot>
+                    </slots>
+                </triggerbutton>
             </trigger>
-            <button index="5">
+            <button index="11">
+                <slots>
+                    <slot>
+                        <code>0x45</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="9">
+                <slots>
+                    <slot>
+                        <code>0x2000ff9f</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="10">
+                <slots>
+                    <slot>
+                        <code>0x51</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="7">
                 <toggle>true</toggle>
+                <actionname>Activate Blender Presets</actionname>
+            </button>
+            <button index="8">
+                <slots>
+                    <slot>
+                        <code>0x1000020</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="5">
                 <setselect>2</setselect>
                 <setselectcondition>one-way</setselectcondition>
+                <actionname>return to set 2</actionname>
+            </button>
+            <button index="3">
+                <slots>
+                    <slot>
+                        <code>0x1000070</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="4">
+                <slots>
+                    <slot>
+                        <code>0x1000072</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="1">
+                <turbointerval>100</turbointerval>
+                <slots>
+                    <slot>
+                        <code>1</code>
+                        <mode>mousebutton</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="2">
+                <slots>
+                    <slot>
+                        <code>3</code>
+                        <mode>mousebutton</mode>
+                    </slot>
+                </slots>
             </button>
         </set>
         <set index="1">
@@ -62,6 +265,14 @@
                 <calibrated>false</calibrated>
                 <summary></summary>
                 <diagonalRange>81</diagonalRange>
+                <stickbutton index="8">
+                    <mousespeedx>40</mousespeedx>
+                    <mousespeedy>40</mousespeedy>
+                </stickbutton>
+                <stickbutton index="6">
+                    <mousespeedx>40</mousespeedx>
+                    <mousespeedy>40</mousespeedy>
+                </stickbutton>
                 <stickbutton index="7">
                     <mousespeedx>40</mousespeedx>
                     <mousespeedy>40</mousespeedy>
@@ -126,16 +337,37 @@
                         </slot>
                     </slots>
                 </stickbutton>
-                <stickbutton index="8">
-                    <mousespeedx>40</mousespeedx>
-                    <mousespeedy>40</mousespeedy>
-                </stickbutton>
-                <stickbutton index="6">
-                    <mousespeedx>40</mousespeedx>
-                    <mousespeedy>40</mousespeedy>
-                </stickbutton>
+            </stick>
+            <stick index="2">
+                <deadZone>16383</deadZone>
+                <maxZone>32767</maxZone>
+                <calibrated>true</calibrated>
+                <summary>
+
+Center X: 0
+Center Y: 0
+
+X: -32767
+Y: -32767
+
+X: 32767
+Y: 32767
+
+range X: -32767 - 32767
+range Y: -32767 - 32767
+
+deadzone X: 16383
+deadzone Y: 16383</summary>
             </stick>
             <dpad index="1">
+                <dpadbutton index="8">
+                    <slots>
+                        <slot>
+                            <code>0x1000012</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
                 <dpadbutton index="4">
                     <slots>
                         <slot>
@@ -160,16 +392,9 @@
                         </slot>
                     </slots>
                 </dpadbutton>
-                <dpadbutton index="8">
-                    <slots>
-                        <slot>
-                            <code>0x1000012</code>
-                            <mode>keyboard</mode>
-                        </slot>
-                    </slots>
-                </dpadbutton>
             </dpad>
             <trigger index="5">
+                <deadZone>2000</deadZone>
                 <center_value>0</center_value>
                 <min_value>-32767</min_value>
                 <max_value>32767</max_value>
@@ -184,6 +409,7 @@
                 </triggerbutton>
             </trigger>
             <trigger index="6">
+                <deadZone>2000</deadZone>
                 <center_value>0</center_value>
                 <min_value>-32767</min_value>
                 <max_value>32767</max_value>
@@ -205,6 +431,28 @@
                     </slots>
                 </triggerbutton>
             </trigger>
+            <button index="11">
+                <slots>
+                    <slot>
+                        <code>0x1000062</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="10">
+                <slots>
+                    <slot>
+                        <code>0x1000061</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="7">
+                <toggle>true</toggle>
+                <setselect>2</setselect>
+                <setselectcondition>one-way</setselectcondition>
+                <actionname>Activate Blender Presets</actionname>
+            </button>
             <button index="5">
                 <setselect>8</setselect>
                 <setselectcondition>one-way</setselectcondition>
@@ -250,28 +498,6 @@
                         <mode>mousebutton</mode>
                     </slot>
                 </slots>
-            </button>
-            <button index="11">
-                <slots>
-                    <slot>
-                        <code>0x1000062</code>
-                        <mode>keyboard</mode>
-                    </slot>
-                </slots>
-            </button>
-            <button index="10">
-                <slots>
-                    <slot>
-                        <code>0x1000061</code>
-                        <mode>keyboard</mode>
-                    </slot>
-                </slots>
-            </button>
-            <button index="7">
-                <toggle>true</toggle>
-                <setselect>2</setselect>
-                <setselectcondition>one-way</setselectcondition>
-                <actionname>Activate Blender Presets</actionname>
             </button>
         </set>
         <set index="2">
@@ -349,6 +575,14 @@
                 </stickbutton>
             </stick>
             <dpad index="1">
+                <dpadbutton index="8">
+                    <slots>
+                        <slot>
+                            <code>0x1000012</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
                 <dpadbutton index="4">
                     <slots>
                         <slot>
@@ -369,14 +603,6 @@
                     <slots>
                         <slot>
                             <code>0x1000013</code>
-                            <mode>keyboard</mode>
-                        </slot>
-                    </slots>
-                </dpadbutton>
-                <dpadbutton index="8">
-                    <slots>
-                        <slot>
-                            <code>0x1000012</code>
                             <mode>keyboard</mode>
                         </slot>
                     </slots>
@@ -420,12 +646,49 @@
                     </slots>
                 </triggerbutton>
             </trigger>
+            <button index="11">
+                <slots>
+                    <slot>
+                        <code>0x45</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="9">
+                <slots>
+                    <slot>
+                        <code>0x1000001</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="10">
+                <slots>
+                    <slot>
+                        <code>0x51</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+            <button index="7">
+                <toggle>true</toggle>
+                <setselect>3</setselect>
+                <setselectcondition>one-way</setselectcondition>
+                <actionname>Activate Blender Presets</actionname>
+            </button>
+            <button index="8">
+                <slots>
+                    <slot>
+                        <code>0x1000020</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
             <button index="5">
                 <setselect>1</setselect>
                 <setselectcondition>one-way</setselectcondition>
             </button>
             <button index="6">
-                <toggle>true</toggle>
                 <slots>
                     <slot>
                         <code>0x1000020</code>
@@ -469,28 +732,6 @@
                         <mode>mousebutton</mode>
                     </slot>
                 </slots>
-            </button>
-            <button index="11">
-                <slots>
-                    <slot>
-                        <code>0x45</code>
-                        <mode>keyboard</mode>
-                    </slot>
-                </slots>
-            </button>
-            <button index="10">
-                <slots>
-                    <slot>
-                        <code>0x51</code>
-                        <mode>keyboard</mode>
-                    </slot>
-                </slots>
-            </button>
-            <button index="7">
-                <toggle>true</toggle>
-                <setselect>3</setselect>
-                <setselectcondition>one-way</setselectcondition>
-                <actionname>Activate Blender Presets</actionname>
             </button>
         </set>
     </sets>
